@@ -1,0 +1,97 @@
+/* Global heading alignment and shared visual consistency */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+.section-head {
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.pagehead,
+.pagehead p,
+.hero,
+.hero .eyebrow,
+.cta,
+.cta p,
+.process > .smallcap,
+.statement,
+.statement-copy,
+.service-row > div,
+.contact-card,
+.case,
+.caseintro {
+  text-align: center;
+}
+
+.pagehead p,
+.hero-bottom p,
+.caseintro {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-bottom {
+  text-align: center;
+}
+
+.actions {
+  justify-content: center;
+}
+
+.workmeta {
+  text-align: center;
+}
+
+.workmeta > div {
+  width: 100%;
+}
+
+.workcard > p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.skillcols,
+.processgrid,
+.casecopy {
+  text-align: center;
+}
+
+.service-row {
+  text-align: center;
+}
+
+.service-row > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-grid > div:last-child {
+  text-align: center;
+}
+
+.about-grid p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.casecopy p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 620px) {
+  .section-head {
+    align-items: center;
+  }
+}
